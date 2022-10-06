@@ -1,0 +1,398 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<testsuite xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:noNamespaceSchemaLocation="https://maven.apache.org/surefire/maven-surefire-plugin/xsd/surefire-test-report.xsd" name="com.jmmacedo.calculator.CalculatorApplicationTests" time="4.307" tests="1" errors="1" skipped="0" failures="0">
+  <properties>
+    <property name="sun.desktop" value="windows"/>
+    <property name="awt.toolkit" value="sun.awt.windows.WToolkit"/>
+    <property name="jdk.extensions.version" value="11.0.9.0"/>
+    <property name="file.encoding.pkg" value="sun.io"/>
+    <property name="java.specification.version" value="11"/>
+    <property name="sun.jnu.encoding" value="Cp1252"/>
+    <property name="java.class.path" value="C:\Users\jmacedo\Documents\Personal\Back\calculator\target\test-classes;C:\Users\jmacedo\Documents\Personal\Back\calculator\target\classes;C:\Users\jmacedo\personal\org\springframework\boot\spring-boot-starter-web\2.7.4\spring-boot-starter-web-2.7.4.jar;C:\Users\jmacedo\personal\org\springframework\boot\spring-boot-starter\2.7.4\spring-boot-starter-2.7.4.jar;C:\Users\jmacedo\personal\org\springframework\boot\spring-boot-autoconfigure\2.7.4\spring-boot-autoconfigure-2.7.4.jar;C:\Users\jmacedo\personal\org\springframework\boot\spring-boot-starter-logging\2.7.4\spring-boot-starter-logging-2.7.4.jar;C:\Users\jmacedo\personal\ch\qos\logback\logback-classic\1.2.11\logback-classic-1.2.11.jar;C:\Users\jmacedo\personal\ch\qos\logback\logback-core\1.2.11\logback-core-1.2.11.jar;C:\Users\jmacedo\personal\org\apache\logging\log4j\log4j-to-slf4j\2.17.2\log4j-to-slf4j-2.17.2.jar;C:\Users\jmacedo\personal\org\apache\logging\log4j\log4j-api\2.17.2\log4j-api-2.17.2.jar;C:\Users\jmacedo\personal\org\slf4j\jul-to-slf4j\1.7.36\jul-to-slf4j-1.7.36.jar;C:\Users\jmacedo\personal\jakarta\annotation\jakarta.annotation-api\1.3.5\jakarta.annotation-api-1.3.5.jar;C:\Users\jmacedo\personal\org\yaml\snakeyaml\1.30\snakeyaml-1.30.jar;C:\Users\jmacedo\personal\org\springframework\boot\spring-boot-starter-json\2.7.4\spring-boot-starter-json-2.7.4.jar;C:\Users\jmacedo\personal\com\fasterxml\jackson\core\jackson-databind\2.13.4\jackson-databind-2.13.4.jar;C:\Users\jmacedo\personal\com\fasterxml\jackson\core\jackson-core\2.13.4\jackson-core-2.13.4.jar;C:\Users\jmacedo\personal\com\fasterxml\jackson\datatype\jackson-datatype-jdk8\2.13.4\jackson-datatype-jdk8-2.13.4.jar;C:\Users\jmacedo\personal\com\fasterxml\jackson\datatype\jackson-datatype-jsr310\2.13.4\jackson-datatype-jsr310-2.13.4.jar;C:\Users\jmacedo\personal\com\fasterxml\jackson\module\jackson-module-parameter-names\2.13.4\jackson-module-parameter-names-2.13.4.jar;C:\Users\jmacedo\personal\org\springframework\boot\spring-boot-starter-tomcat\2.7.4\spring-boot-starter-tomcat-2.7.4.jar;C:\Users\jmacedo\personal\org\apache\tomcat\embed\tomcat-embed-core\9.0.65\tomcat-embed-core-9.0.65.jar;C:\Users\jmacedo\personal\org\apache\tomcat\embed\tomcat-embed-el\9.0.65\tomcat-embed-el-9.0.65.jar;C:\Users\jmacedo\personal\org\apache\tomcat\embed\tomcat-embed-websocket\9.0.65\tomcat-embed-websocket-9.0.65.jar;C:\Users\jmacedo\personal\org\springframework\spring-web\5.3.23\spring-web-5.3.23.jar;C:\Users\jmacedo\personal\org\springframework\spring-beans\5.3.23\spring-beans-5.3.23.jar;C:\Users\jmacedo\personal\org\springframework\spring-webmvc\5.3.23\spring-webmvc-5.3.23.jar;C:\Users\jmacedo\personal\org\springframework\spring-aop\5.3.23\spring-aop-5.3.23.jar;C:\Users\jmacedo\personal\org\springframework\spring-context\5.3.23\spring-context-5.3.23.jar;C:\Users\jmacedo\personal\org\springframework\spring-expression\5.3.23\spring-expression-5.3.23.jar;C:\Users\jmacedo\personal\org\projectlombok\lombok\1.18.24\lombok-1.18.24.jar;C:\Users\jmacedo\personal\org\springframework\boot\spring-boot-starter-test\2.7.4\spring-boot-starter-test-2.7.4.jar;C:\Users\jmacedo\personal\org\springframework\boot\spring-boot-test\2.7.4\spring-boot-test-2.7.4.jar;C:\Users\jmacedo\personal\org\springframework\boot\spring-boot-test-autoconfigure\2.7.4\spring-boot-test-autoconfigure-2.7.4.jar;C:\Users\jmacedo\personal\com\jayway\jsonpath\json-path\2.7.0\json-path-2.7.0.jar;C:\Users\jmacedo\personal\net\minidev\json-smart\2.4.8\json-smart-2.4.8.jar;C:\Users\jmacedo\personal\net\minidev\accessors-smart\2.4.8\accessors-smart-2.4.8.jar;C:\Users\jmacedo\personal\org\ow2\asm\asm\9.1\asm-9.1.jar;C:\Users\jmacedo\personal\jakarta\xml\bind\jakarta.xml.bind-api\2.3.3\jakarta.xml.bind-api-2.3.3.jar;C:\Users\jmacedo\personal\jakarta\activation\jakarta.activation-api\1.2.2\jakarta.activation-api-1.2.2.jar;C:\Users\jmacedo\personal\org\assertj\assertj-core\3.22.0\assertj-core-3.22.0.jar;C:\Users\jmacedo\personal\org\hamcrest\hamcrest\2.2\hamcrest-2.2.jar;C:\Users\jmacedo\personal\org\junit\jupiter\junit-jupiter\5.8.2\junit-jupiter-5.8.2.jar;C:\Users\jmacedo\personal\org\junit\jupiter\junit-jupiter-api\5.8.2\junit-jupiter-api-5.8.2.jar;C:\Users\jmacedo\personal\org\opentest4j\opentest4j\1.2.0\opentest4j-1.2.0.jar;C:\Users\jmacedo\personal\org\junit\platform\junit-platform-commons\1.8.2\junit-platform-commons-1.8.2.jar;C:\Users\jmacedo\personal\org\apiguardian\apiguardian-api\1.1.2\apiguardian-api-1.1.2.jar;C:\Users\jmacedo\personal\org\junit\jupiter\junit-jupiter-params\5.8.2\junit-jupiter-params-5.8.2.jar;C:\Users\jmacedo\personal\org\junit\jupiter\junit-jupiter-engine\5.8.2\junit-jupiter-engine-5.8.2.jar;C:\Users\jmacedo\personal\org\junit\platform\junit-platform-engine\1.8.2\junit-platform-engine-1.8.2.jar;C:\Users\jmacedo\personal\org\mockito\mockito-core\4.5.1\mockito-core-4.5.1.jar;C:\Users\jmacedo\personal\net\bytebuddy\byte-buddy\1.12.17\byte-buddy-1.12.17.jar;C:\Users\jmacedo\personal\net\bytebuddy\byte-buddy-agent\1.12.17\byte-buddy-agent-1.12.17.jar;C:\Users\jmacedo\personal\org\objenesis\objenesis\3.2\objenesis-3.2.jar;C:\Users\jmacedo\personal\org\mockito\mockito-junit-jupiter\4.5.1\mockito-junit-jupiter-4.5.1.jar;C:\Users\jmacedo\personal\org\skyscreamer\jsonassert\1.5.1\jsonassert-1.5.1.jar;C:\Users\jmacedo\personal\com\vaadin\external\google\android-json\0.0.20131108.vaadin1\android-json-0.0.20131108.vaadin1.jar;C:\Users\jmacedo\personal\org\springframework\spring-core\5.3.23\spring-core-5.3.23.jar;C:\Users\jmacedo\personal\org\springframework\spring-jcl\5.3.23\spring-jcl-5.3.23.jar;C:\Users\jmacedo\personal\org\springframework\spring-test\5.3.23\spring-test-5.3.23.jar;C:\Users\jmacedo\personal\org\xmlunit\xmlunit-core\2.9.0\xmlunit-core-2.9.0.jar;C:\Users\jmacedo\personal\io\springfox\springfox-swagger2\3.0.0\springfox-swagger2-3.0.0.jar;C:\Users\jmacedo\personal\io\springfox\springfox-spi\3.0.0\springfox-spi-3.0.0.jar;C:\Users\jmacedo\personal\io\springfox\springfox-core\3.0.0\springfox-core-3.0.0.jar;C:\Users\jmacedo\personal\io\springfox\springfox-schema\3.0.0\springfox-schema-3.0.0.jar;C:\Users\jmacedo\personal\io\springfox\springfox-swagger-common\3.0.0\springfox-swagger-common-3.0.0.jar;C:\Users\jmacedo\personal\io\swagger\core\v3\swagger-annotations\2.1.2\swagger-annotations-2.1.2.jar;C:\Users\jmacedo\personal\io\springfox\springfox-spring-web\3.0.0\springfox-spring-web-3.0.0.jar;C:\Users\jmacedo\personal\io\github\classgraph\classgraph\4.8.83\classgraph-4.8.83.jar;C:\Users\jmacedo\personal\io\springfox\springfox-spring-webmvc\3.0.0\springfox-spring-webmvc-3.0.0.jar;C:\Users\jmacedo\personal\io\springfox\springfox-spring-webflux\3.0.0\springfox-spring-webflux-3.0.0.jar;C:\Users\jmacedo\personal\com\fasterxml\classmate\1.5.1\classmate-1.5.1.jar;C:\Users\jmacedo\personal\org\slf4j\slf4j-api\1.7.36\slf4j-api-1.7.36.jar;C:\Users\jmacedo\personal\org\springframework\plugin\spring-plugin-core\2.0.0.RELEASE\spring-plugin-core-2.0.0.RELEASE.jar;C:\Users\jmacedo\personal\org\springframework\plugin\spring-plugin-metadata\2.0.0.RELEASE\spring-plugin-metadata-2.0.0.RELEASE.jar;C:\Users\jmacedo\personal\io\swagger\swagger-annotations\1.5.20\swagger-annotations-1.5.20.jar;C:\Users\jmacedo\personal\io\swagger\swagger-models\1.5.20\swagger-models-1.5.20.jar;C:\Users\jmacedo\personal\com\fasterxml\jackson\core\jackson-annotations\2.13.4\jackson-annotations-2.13.4.jar;C:\Users\jmacedo\personal\org\mapstruct\mapstruct\1.3.1.Final\mapstruct-1.3.1.Final.jar;C:\Users\jmacedo\personal\io\springfox\springfox-boot-starter\3.0.0\springfox-boot-starter-3.0.0.jar;C:\Users\jmacedo\personal\io\springfox\springfox-oas\3.0.0\springfox-oas-3.0.0.jar;C:\Users\jmacedo\personal\io\swagger\core\v3\swagger-models\2.1.2\swagger-models-2.1.2.jar;C:\Users\jmacedo\personal\io\springfox\springfox-data-rest\3.0.0\springfox-data-rest-3.0.0.jar;C:\Users\jmacedo\personal\io\springfox\springfox-bean-validators\3.0.0\springfox-bean-validators-3.0.0.jar;C:\Users\jmacedo\personal\io\springfox\springfox-swagger-ui\3.0.0\springfox-swagger-ui-3.0.0.jar;C:\Users\jmacedo\personal\org\springframework\boot\spring-boot-properties-migrator\2.7.4\spring-boot-properties-migrator-2.7.4.jar;C:\Users\jmacedo\personal\org\springframework\boot\spring-boot\2.7.4\spring-boot-2.7.4.jar;C:\Users\jmacedo\personal\org\springframework\boot\spring-boot-configuration-metadata\2.7.4\spring-boot-configuration-metadata-2.7.4.jar;"/>
+    <property name="java.vm.vendor" value="Eclipse OpenJ9"/>
+    <property name="sun.arch.data.model" value="64"/>
+    <property name="com.ibm.vm.bitmode" value="64"/>
+    <property name="user.variant" value=""/>
+    <property name="com.ibm.oti.vm.library.version" value="29"/>
+    <property name="java.vendor.url" value="https://adoptopenjdk.net/"/>
+    <property name="user.timezone" value="Europe/Paris"/>
+    <property name="os.name" value="Windows 10"/>
+    <property name="java.vm.specification.version" value="11"/>
+    <property name="sun.java.launcher" value="SUN_STANDARD"/>
+    <property name="user.country" value="ES"/>
+    <property name="sun.boot.library.path" value="R:\sw\open-jdk\OpenJDK11U-jdk_x64_windows_openj9_11.0.9_11_openj9-0.23.0\bin\compressedrefs;R:\sw\open-jdk\OpenJDK11U-jdk_x64_windows_openj9_11.0.9_11_openj9-0.23.0\bin"/>
+    <property name="sun.java.command" value="C:\Users\jmacedo\AppData\Local\Temp\surefire5762615817983954035\surefirebooter1746439665459999101.jar C:\Users\jmacedo\AppData\Local\Temp\surefire5762615817983954035 2022-09-29T16-48-40_656-jvmRun1 surefire1473342254694476857tmp surefire_015396552212816974785tmp"/>
+    <property name="surefire.test.class.path" value="C:\Users\jmacedo\Documents\Personal\Back\calculator\target\test-classes;C:\Users\jmacedo\Documents\Personal\Back\calculator\target\classes;C:\Users\jmacedo\personal\org\springframework\boot\spring-boot-starter-web\2.7.4\spring-boot-starter-web-2.7.4.jar;C:\Users\jmacedo\personal\org\springframework\boot\spring-boot-starter\2.7.4\spring-boot-starter-2.7.4.jar;C:\Users\jmacedo\personal\org\springframework\boot\spring-boot-autoconfigure\2.7.4\spring-boot-autoconfigure-2.7.4.jar;C:\Users\jmacedo\personal\org\springframework\boot\spring-boot-starter-logging\2.7.4\spring-boot-starter-logging-2.7.4.jar;C:\Users\jmacedo\personal\ch\qos\logback\logback-classic\1.2.11\logback-classic-1.2.11.jar;C:\Users\jmacedo\personal\ch\qos\logback\logback-core\1.2.11\logback-core-1.2.11.jar;C:\Users\jmacedo\personal\org\apache\logging\log4j\log4j-to-slf4j\2.17.2\log4j-to-slf4j-2.17.2.jar;C:\Users\jmacedo\personal\org\apache\logging\log4j\log4j-api\2.17.2\log4j-api-2.17.2.jar;C:\Users\jmacedo\personal\org\slf4j\jul-to-slf4j\1.7.36\jul-to-slf4j-1.7.36.jar;C:\Users\jmacedo\personal\jakarta\annotation\jakarta.annotation-api\1.3.5\jakarta.annotation-api-1.3.5.jar;C:\Users\jmacedo\personal\org\yaml\snakeyaml\1.30\snakeyaml-1.30.jar;C:\Users\jmacedo\personal\org\springframework\boot\spring-boot-starter-json\2.7.4\spring-boot-starter-json-2.7.4.jar;C:\Users\jmacedo\personal\com\fasterxml\jackson\core\jackson-databind\2.13.4\jackson-databind-2.13.4.jar;C:\Users\jmacedo\personal\com\fasterxml\jackson\core\jackson-core\2.13.4\jackson-core-2.13.4.jar;C:\Users\jmacedo\personal\com\fasterxml\jackson\datatype\jackson-datatype-jdk8\2.13.4\jackson-datatype-jdk8-2.13.4.jar;C:\Users\jmacedo\personal\com\fasterxml\jackson\datatype\jackson-datatype-jsr310\2.13.4\jackson-datatype-jsr310-2.13.4.jar;C:\Users\jmacedo\personal\com\fasterxml\jackson\module\jackson-module-parameter-names\2.13.4\jackson-module-parameter-names-2.13.4.jar;C:\Users\jmacedo\personal\org\springframework\boot\spring-boot-starter-tomcat\2.7.4\spring-boot-starter-tomcat-2.7.4.jar;C:\Users\jmacedo\personal\org\apache\tomcat\embed\tomcat-embed-core\9.0.65\tomcat-embed-core-9.0.65.jar;C:\Users\jmacedo\personal\org\apache\tomcat\embed\tomcat-embed-el\9.0.65\tomcat-embed-el-9.0.65.jar;C:\Users\jmacedo\personal\org\apache\tomcat\embed\tomcat-embed-websocket\9.0.65\tomcat-embed-websocket-9.0.65.jar;C:\Users\jmacedo\personal\org\springframework\spring-web\5.3.23\spring-web-5.3.23.jar;C:\Users\jmacedo\personal\org\springframework\spring-beans\5.3.23\spring-beans-5.3.23.jar;C:\Users\jmacedo\personal\org\springframework\spring-webmvc\5.3.23\spring-webmvc-5.3.23.jar;C:\Users\jmacedo\personal\org\springframework\spring-aop\5.3.23\spring-aop-5.3.23.jar;C:\Users\jmacedo\personal\org\springframework\spring-context\5.3.23\spring-context-5.3.23.jar;C:\Users\jmacedo\personal\org\springframework\spring-expression\5.3.23\spring-expression-5.3.23.jar;C:\Users\jmacedo\personal\org\projectlombok\lombok\1.18.24\lombok-1.18.24.jar;C:\Users\jmacedo\personal\org\springframework\boot\spring-boot-starter-test\2.7.4\spring-boot-starter-test-2.7.4.jar;C:\Users\jmacedo\personal\org\springframework\boot\spring-boot-test\2.7.4\spring-boot-test-2.7.4.jar;C:\Users\jmacedo\personal\org\springframework\boot\spring-boot-test-autoconfigure\2.7.4\spring-boot-test-autoconfigure-2.7.4.jar;C:\Users\jmacedo\personal\com\jayway\jsonpath\json-path\2.7.0\json-path-2.7.0.jar;C:\Users\jmacedo\personal\net\minidev\json-smart\2.4.8\json-smart-2.4.8.jar;C:\Users\jmacedo\personal\net\minidev\accessors-smart\2.4.8\accessors-smart-2.4.8.jar;C:\Users\jmacedo\personal\org\ow2\asm\asm\9.1\asm-9.1.jar;C:\Users\jmacedo\personal\jakarta\xml\bind\jakarta.xml.bind-api\2.3.3\jakarta.xml.bind-api-2.3.3.jar;C:\Users\jmacedo\personal\jakarta\activation\jakarta.activation-api\1.2.2\jakarta.activation-api-1.2.2.jar;C:\Users\jmacedo\personal\org\assertj\assertj-core\3.22.0\assertj-core-3.22.0.jar;C:\Users\jmacedo\personal\org\hamcrest\hamcrest\2.2\hamcrest-2.2.jar;C:\Users\jmacedo\personal\org\junit\jupiter\junit-jupiter\5.8.2\junit-jupiter-5.8.2.jar;C:\Users\jmacedo\personal\org\junit\jupiter\junit-jupiter-api\5.8.2\junit-jupiter-api-5.8.2.jar;C:\Users\jmacedo\personal\org\opentest4j\opentest4j\1.2.0\opentest4j-1.2.0.jar;C:\Users\jmacedo\personal\org\junit\platform\junit-platform-commons\1.8.2\junit-platform-commons-1.8.2.jar;C:\Users\jmacedo\personal\org\apiguardian\apiguardian-api\1.1.2\apiguardian-api-1.1.2.jar;C:\Users\jmacedo\personal\org\junit\jupiter\junit-jupiter-params\5.8.2\junit-jupiter-params-5.8.2.jar;C:\Users\jmacedo\personal\org\junit\jupiter\junit-jupiter-engine\5.8.2\junit-jupiter-engine-5.8.2.jar;C:\Users\jmacedo\personal\org\junit\platform\junit-platform-engine\1.8.2\junit-platform-engine-1.8.2.jar;C:\Users\jmacedo\personal\org\mockito\mockito-core\4.5.1\mockito-core-4.5.1.jar;C:\Users\jmacedo\personal\net\bytebuddy\byte-buddy\1.12.17\byte-buddy-1.12.17.jar;C:\Users\jmacedo\personal\net\bytebuddy\byte-buddy-agent\1.12.17\byte-buddy-agent-1.12.17.jar;C:\Users\jmacedo\personal\org\objenesis\objenesis\3.2\objenesis-3.2.jar;C:\Users\jmacedo\personal\org\mockito\mockito-junit-jupiter\4.5.1\mockito-junit-jupiter-4.5.1.jar;C:\Users\jmacedo\personal\org\skyscreamer\jsonassert\1.5.1\jsonassert-1.5.1.jar;C:\Users\jmacedo\personal\com\vaadin\external\google\android-json\0.0.20131108.vaadin1\android-json-0.0.20131108.vaadin1.jar;C:\Users\jmacedo\personal\org\springframework\spring-core\5.3.23\spring-core-5.3.23.jar;C:\Users\jmacedo\personal\org\springframework\spring-jcl\5.3.23\spring-jcl-5.3.23.jar;C:\Users\jmacedo\personal\org\springframework\spring-test\5.3.23\spring-test-5.3.23.jar;C:\Users\jmacedo\personal\org\xmlunit\xmlunit-core\2.9.0\xmlunit-core-2.9.0.jar;C:\Users\jmacedo\personal\io\springfox\springfox-swagger2\3.0.0\springfox-swagger2-3.0.0.jar;C:\Users\jmacedo\personal\io\springfox\springfox-spi\3.0.0\springfox-spi-3.0.0.jar;C:\Users\jmacedo\personal\io\springfox\springfox-core\3.0.0\springfox-core-3.0.0.jar;C:\Users\jmacedo\personal\io\springfox\springfox-schema\3.0.0\springfox-schema-3.0.0.jar;C:\Users\jmacedo\personal\io\springfox\springfox-swagger-common\3.0.0\springfox-swagger-common-3.0.0.jar;C:\Users\jmacedo\personal\io\swagger\core\v3\swagger-annotations\2.1.2\swagger-annotations-2.1.2.jar;C:\Users\jmacedo\personal\io\springfox\springfox-spring-web\3.0.0\springfox-spring-web-3.0.0.jar;C:\Users\jmacedo\personal\io\github\classgraph\classgraph\4.8.83\classgraph-4.8.83.jar;C:\Users\jmacedo\personal\io\springfox\springfox-spring-webmvc\3.0.0\springfox-spring-webmvc-3.0.0.jar;C:\Users\jmacedo\personal\io\springfox\springfox-spring-webflux\3.0.0\springfox-spring-webflux-3.0.0.jar;C:\Users\jmacedo\personal\com\fasterxml\classmate\1.5.1\classmate-1.5.1.jar;C:\Users\jmacedo\personal\org\slf4j\slf4j-api\1.7.36\slf4j-api-1.7.36.jar;C:\Users\jmacedo\personal\org\springframework\plugin\spring-plugin-core\2.0.0.RELEASE\spring-plugin-core-2.0.0.RELEASE.jar;C:\Users\jmacedo\personal\org\springframework\plugin\spring-plugin-metadata\2.0.0.RELEASE\spring-plugin-metadata-2.0.0.RELEASE.jar;C:\Users\jmacedo\personal\io\swagger\swagger-annotations\1.5.20\swagger-annotations-1.5.20.jar;C:\Users\jmacedo\personal\io\swagger\swagger-models\1.5.20\swagger-models-1.5.20.jar;C:\Users\jmacedo\personal\com\fasterxml\jackson\core\jackson-annotations\2.13.4\jackson-annotations-2.13.4.jar;C:\Users\jmacedo\personal\org\mapstruct\mapstruct\1.3.1.Final\mapstruct-1.3.1.Final.jar;C:\Users\jmacedo\personal\io\springfox\springfox-boot-starter\3.0.0\springfox-boot-starter-3.0.0.jar;C:\Users\jmacedo\personal\io\springfox\springfox-oas\3.0.0\springfox-oas-3.0.0.jar;C:\Users\jmacedo\personal\io\swagger\core\v3\swagger-models\2.1.2\swagger-models-2.1.2.jar;C:\Users\jmacedo\personal\io\springfox\springfox-data-rest\3.0.0\springfox-data-rest-3.0.0.jar;C:\Users\jmacedo\personal\io\springfox\springfox-bean-validators\3.0.0\springfox-bean-validators-3.0.0.jar;C:\Users\jmacedo\personal\io\springfox\springfox-swagger-ui\3.0.0\springfox-swagger-ui-3.0.0.jar;C:\Users\jmacedo\personal\org\springframework\boot\spring-boot-properties-migrator\2.7.4\spring-boot-properties-migrator-2.7.4.jar;C:\Users\jmacedo\personal\org\springframework\boot\spring-boot\2.7.4\spring-boot-2.7.4.jar;C:\Users\jmacedo\personal\org\springframework\boot\spring-boot-configuration-metadata\2.7.4\spring-boot-configuration-metadata-2.7.4.jar;"/>
+    <property name="sun.cpu.endian" value="little"/>
+    <property name="user.home" value="C:\Users\jmacedo"/>
+    <property name="user.language" value="es"/>
+    <property name="java.specification.vendor" value="Oracle Corporation"/>
+    <property name="java.version.date" value="2020-10-20"/>
+    <property name="java.home" value="R:\sw\open-jdk\OpenJDK11U-jdk_x64_windows_openj9_11.0.9_11_openj9-0.23.0"/>
+    <property name="ibm.signalhandling.rs" value="false"/>
+    <property name="file.separator" value="\"/>
+    <property name="jdk.extensions.name" value="Extensions for OpenJDK for Eclipse OpenJ9"/>
+    <property name="basedir" value="C:\Users\jmacedo\Documents\Personal\Back\calculator"/>
+    <property name="line.separator" value="&#10;"/>
+    <property name="java.vm.specification.vendor" value="Oracle Corporation"/>
+    <property name="java.specification.name" value="Java Platform API Specification"/>
+    <property name="java.compiler" value="j9jit29"/>
+    <property name="com.ibm.util.extralibs.properties" value=""/>
+    <property name="java.awt.graphicsenv" value="sun.awt.Win32GraphicsEnvironment"/>
+    <property name="com.ibm.oti.configuration" value="scar"/>
+    <property name="java.awt.fonts" value=""/>
+    <property name="surefire.real.class.path" value="C:\Users\jmacedo\AppData\Local\Temp\surefire5762615817983954035\surefirebooter1746439665459999101.jar"/>
+    <property name="com.ibm.oti.shared.enabled" value="false"/>
+    <property name="com.ibm.oti.vm.bootstrap.library.path" value="R:\sw\open-jdk\OpenJDK11U-jdk_x64_windows_openj9_11.0.9_11_openj9-0.23.0\bin\compressedrefs;R:\sw\open-jdk\OpenJDK11U-jdk_x64_windows_openj9_11.0.9_11_openj9-0.23.0\bin"/>
+    <property name="com.ibm.cpu.endian" value="little"/>
+    <property name="java.fullversion" value="11.0.9+11&#10;JRE 11 Windows 10 amd64-64-Bit Compressed References 20201022_795 (JIT enabled, AOT enabled)&#10;OpenJ9   - 0394ef754&#10;OMR      - 582366ae5&#10;JCL      - 3b09cfd7e9 based on jdk-11.0.9+11"/>
+    <property name="java.runtime.version" value="11.0.9+11"/>
+    <property name="user.name" value="jmacedo"/>
+    <property name="path.separator" value=";"/>
+    <property name="os.version" value="10.0"/>
+    <property name="java.runtime.name" value="OpenJDK Runtime Environment"/>
+    <property name="ibm.signalhandling.sigint" value="true"/>
+    <property name="file.encoding" value="Cp1252"/>
+    <property name="java.vm.name" value="Eclipse OpenJ9 VM"/>
+    <property name="java.vendor.version" value="AdoptOpenJDK"/>
+    <property name="ibm.signalhandling.sigchain" value="true"/>
+    <property name="localRepository" value="C:\Users\jmacedo\personal"/>
+    <property name="java.vendor.url.bug" value="https://github.com/AdoptOpenJDK/openjdk-support/issues"/>
+    <property name="java.io.tmpdir" value="C:\Users\jmacedo\AppData\Local\Temp\"/>
+    <property name="java.version" value="11.0.9"/>
+    <property name="com.ibm.system.agent.path" value="R:\sw\open-jdk\OpenJDK11U-jdk_x64_windows_openj9_11.0.9_11_openj9-0.23.0\bin"/>
+    <property name="user.dir" value="C:\Users\jmacedo\Documents\Personal\Back\calculator"/>
+    <property name="os.arch" value="amd64"/>
+    <property name="java.vm.specification.name" value="Java Virtual Machine Specification"/>
+    <property name="java.awt.printerjob" value="sun.awt.windows.WPrinterJob"/>
+    <property name="idea.version2019.3.1" value="true"/>
+    <property name="os.encoding" value="UTF8"/>
+    <property name="java.library.path" value="R:\sw\open-jdk\OpenJDK11U-jdk_x64_windows_openj9_11.0.9_11_openj9-0.23.0\bin\compressedrefs;R:\sw\open-jdk\OpenJDK11U-jdk_x64_windows_openj9_11.0.9_11_openj9-0.23.0\bin;C:\Windows\system32;C:\Windows;R:\sw\open-jdk\OpenJDK11U-jdk_x64_windows_openj9_11.0.9_11_openj9-0.23.0\bin;R:\sw\back\maven\apache-maven-3.6.3\bin;R:\sw\front\node\node-v14.17.3-win-x64;R:\sw\tools\git\PortableGit-2.16.2\bin;R:\sw\devops\openshift\oc;R:\sw\devops\openshift\odo;R:\sw\db\mongodb-database-tools-windows-x86_64-100.1.1\bin;C:\oracle1264\product\12.1.0\client_1\bin;C:\oracle1232\product\12.1.0\client_1\bin;C:\Program Files\AdoptOpenJDK\jre-11.0.9.11-openj9\bin;C:\Windows\system32;C:\Windows;C:\Windows\System32\Wbem;C:\Windows\System32\WindowsPowerShell\v1.0\;C:\Windows\System32\OpenSSH\;C:\Program Files\TortoiseSVN\bin;C:\Users\jmacedo\AppData\Local\Microsoft\WindowsApps;C:\Users\jmacedo\AppData\Local\Programs\Git\cmd;R:\sw\front\node\node-v10.11.0-win-x64\;;."/>
+    <property name="java.vendor" value="AdoptOpenJDK"/>
+    <property name="java.vm.info" value="JRE 11 Windows 10 amd64-64-Bit Compressed References 20201022_795 (JIT enabled, AOT enabled)&#10;OpenJ9   - 0394ef754&#10;OMR      - 582366ae5&#10;JCL      - 3b09cfd7e9 based on jdk-11.0.9+11"/>
+    <property name="java.vm.version" value="openj9-0.23.0"/>
+    <property name="com.ibm.jcl.checkClassPath" value=""/>
+    <property name="ibm.system.encoding" value="Cp1252"/>
+    <property name="sun.io.unicode.encoding" value="UnicodeLittle"/>
+    <property name="java.class.version" value="55.0"/>
+  </properties>
+  <testcase name="contextLoads" classname="com.jmmacedo.calculator.CalculatorApplicationTests" time="0.001">
+    <error message="Failed to load ApplicationContext" type="java.lang.IllegalStateException">java.lang.IllegalStateException: Failed to load ApplicationContext
+Caused by: org.springframework.context.ApplicationContextException: Failed to start bean 'documentationPluginsBootstrapper'; nested exception is java.lang.NullPointerException
+Caused by: java.lang.NullPointerException
+</error>
+    <system-out><![CDATA[16:48:42.425 [main] DEBUG org.springframework.test.context.BootstrapUtils - Instantiating CacheAwareContextLoaderDelegate from class [org.springframework.test.context.cache.DefaultCacheAwareContextLoaderDelegate]
+16:48:42.446 [main] DEBUG org.springframework.test.context.BootstrapUtils - Instantiating BootstrapContext using constructor [public org.springframework.test.context.support.DefaultBootstrapContext(java.lang.Class,org.springframework.test.context.CacheAwareContextLoaderDelegate)]
+16:48:42.500 [main] DEBUG org.springframework.test.context.BootstrapUtils - Instantiating TestContextBootstrapper for test class [com.jmmacedo.calculator.CalculatorApplicationTests] from class [org.springframework.boot.test.context.SpringBootTestContextBootstrapper]
+16:48:42.524 [main] INFO org.springframework.boot.test.context.SpringBootTestContextBootstrapper - Neither @ContextConfiguration nor @ContextHierarchy found for test class [com.jmmacedo.calculator.CalculatorApplicationTests], using SpringBootContextLoader
+16:48:42.533 [main] DEBUG org.springframework.test.context.support.AbstractContextLoader - Did not detect default resource location for test class [com.jmmacedo.calculator.CalculatorApplicationTests]: class path resource [com/jmmacedo/calculator/CalculatorApplicationTests-context.xml] does not exist
+16:48:42.534 [main] DEBUG org.springframework.test.context.support.AbstractContextLoader - Did not detect default resource location for test class [com.jmmacedo.calculator.CalculatorApplicationTests]: class path resource [com/jmmacedo/calculator/CalculatorApplicationTestsContext.groovy] does not exist
+16:48:42.536 [main] INFO org.springframework.test.context.support.AbstractContextLoader - Could not detect default resource locations for test class [com.jmmacedo.calculator.CalculatorApplicationTests]: no resource found for suffixes {-context.xml, Context.groovy}.
+16:48:42.537 [main] INFO org.springframework.test.context.support.AnnotationConfigContextLoaderUtils - Could not detect default configuration classes for test class [com.jmmacedo.calculator.CalculatorApplicationTests]: CalculatorApplicationTests does not declare any static, non-private, non-final, nested classes annotated with @Configuration.
+16:48:42.608 [main] DEBUG org.springframework.test.context.support.ActiveProfilesUtils - Could not find an 'annotation declaring class' for annotation type [org.springframework.test.context.ActiveProfiles] and class [com.jmmacedo.calculator.CalculatorApplicationTests]
+16:48:42.692 [main] DEBUG org.springframework.context.annotation.ClassPathScanningCandidateComponentProvider - Identified candidate component class: file [C:\Users\jmacedo\Documents\Personal\Back\calculator\target\classes\com\jmmacedo\calculator\CalculatorApplication.class]
+16:48:42.693 [main] INFO org.springframework.boot.test.context.SpringBootTestContextBootstrapper - Found @SpringBootConfiguration com.jmmacedo.calculator.CalculatorApplication for test class com.jmmacedo.calculator.CalculatorApplicationTests
+16:48:42.834 [main] DEBUG org.springframework.boot.test.context.SpringBootTestContextBootstrapper - @TestExecutionListeners is not present for class [com.jmmacedo.calculator.CalculatorApplicationTests]: using defaults.
+16:48:42.835 [main] INFO org.springframework.boot.test.context.SpringBootTestContextBootstrapper - Loaded default TestExecutionListener class names from location [META-INF/spring.factories]: [org.springframework.boot.test.mock.mockito.MockitoTestExecutionListener, org.springframework.boot.test.mock.mockito.ResetMocksTestExecutionListener, org.springframework.boot.test.autoconfigure.restdocs.RestDocsTestExecutionListener, org.springframework.boot.test.autoconfigure.web.client.MockRestServiceServerResetTestExecutionListener, org.springframework.boot.test.autoconfigure.web.servlet.MockMvcPrintOnlyOnFailureTestExecutionListener, org.springframework.boot.test.autoconfigure.web.servlet.WebDriverTestExecutionListener, org.springframework.boot.test.autoconfigure.webservices.client.MockWebServiceServerTestExecutionListener, org.springframework.test.context.web.ServletTestExecutionListener, org.springframework.test.context.support.DirtiesContextBeforeModesTestExecutionListener, org.springframework.test.context.event.ApplicationEventsTestExecutionListener, org.springframework.test.context.support.DependencyInjectionTestExecutionListener, org.springframework.test.context.support.DirtiesContextTestExecutionListener, org.springframework.test.context.transaction.TransactionalTestExecutionListener, org.springframework.test.context.jdbc.SqlScriptsTestExecutionListener, org.springframework.test.context.event.EventPublishingTestExecutionListener]
+16:48:42.851 [main] DEBUG org.springframework.boot.test.context.SpringBootTestContextBootstrapper - Skipping candidate TestExecutionListener [org.springframework.test.context.transaction.TransactionalTestExecutionListener] due to a missing dependency. Specify custom listener classes or make the default listener classes and their required dependencies available. Offending class: [org.springframework.transaction.interceptor.TransactionAttributeSource]
+16:48:42.852 [main] DEBUG org.springframework.boot.test.context.SpringBootTestContextBootstrapper - Skipping candidate TestExecutionListener [org.springframework.test.context.jdbc.SqlScriptsTestExecutionListener] due to a missing dependency. Specify custom listener classes or make the default listener classes and their required dependencies available. Offending class: [org.springframework.transaction.interceptor.TransactionAttribute]
+16:48:42.852 [main] INFO org.springframework.boot.test.context.SpringBootTestContextBootstrapper - Using TestExecutionListeners: [org.springframework.test.context.web.ServletTestExecutionListener@d76142d6, org.springframework.test.context.support.DirtiesContextBeforeModesTestExecutionListener@74e41a06, org.springframework.test.context.event.ApplicationEventsTestExecutionListener@7b7b1f7d, org.springframework.boot.test.mock.mockito.MockitoTestExecutionListener@81389ab8, org.springframework.boot.test.autoconfigure.SpringBootDependencyInjectionTestExecutionListener@85dc3ea3, org.springframework.test.context.support.DirtiesContextTestExecutionListener@122ffab6, org.springframework.test.context.event.EventPublishingTestExecutionListener@cb45519d, org.springframework.boot.test.mock.mockito.ResetMocksTestExecutionListener@68cc9278, org.springframework.boot.test.autoconfigure.restdocs.RestDocsTestExecutionListener@c4bf68e7, org.springframework.boot.test.autoconfigure.web.client.MockRestServiceServerResetTestExecutionListener@dc4cf51b, org.springframework.boot.test.autoconfigure.web.servlet.MockMvcPrintOnlyOnFailureTestExecutionListener@79c33b94, org.springframework.boot.test.autoconfigure.web.servlet.WebDriverTestExecutionListener@68a9ae84, org.springframework.boot.test.autoconfigure.webservices.client.MockWebServiceServerTestExecutionListener@319494cc]
+16:48:42.860 [main] DEBUG org.springframework.test.context.support.AbstractDirtiesContextTestExecutionListener - Before test class: context [DefaultTestContext@1ce614bb testClass = CalculatorApplicationTests, testInstance = [null], testMethod = [null], testException = [null], mergedContextConfiguration = [WebMergedContextConfiguration@8bb4b5b9 testClass = CalculatorApplicationTests, locations = '{}', classes = '{class com.jmmacedo.calculator.CalculatorApplication}', contextInitializerClasses = '[]', activeProfiles = '{}', propertySourceLocations = '{}', propertySourceProperties = '{org.springframework.boot.test.context.SpringBootTestContextBootstrapper=true}', contextCustomizers = set[org.springframework.boot.test.context.filter.ExcludeFilterContextCustomizer@c91e2e07, org.springframework.boot.test.json.DuplicateJsonObjectContextCustomizerFactory$DuplicateJsonObjectContextCustomizer@5916d3b8, org.springframework.boot.test.mock.mockito.MockitoContextCustomizer@0, org.springframework.boot.test.web.client.TestRestTemplateContextCustomizer@ce49d022, org.springframework.boot.test.autoconfigure.actuate.metrics.MetricsExportContextCustomizerFactory$DisableMetricExportContextCustomizer@ccdf08bc, org.springframework.boot.test.autoconfigure.properties.PropertyMappingContextCustomizer@0, org.springframework.boot.test.autoconfigure.web.servlet.WebDriverContextCustomizerFactory$Customizer@c6675c70, org.springframework.boot.test.context.SpringBootTestArgs@1, org.springframework.boot.test.context.SpringBootTestWebEnvironment@701d251], resourceBasePath = 'src/main/webapp', contextLoader = 'org.springframework.boot.test.context.SpringBootContextLoader', parent = [null]], attributes = map['org.springframework.test.context.web.ServletTestExecutionListener.activateListener' -> true]], class annotated with @DirtiesContext [false] with mode [null].
+
+  .   ____          _            __ _ _
+ /\\ / ___'_ __ _ _(_)_ __  __ _ \ \ \ \
+( ( )\___ | '_ | '_| | '_ \/ _` | \ \ \ \
+ \\/  ___)| |_)| | | | | || (_| |  ) ) ) )
+  '  |____| .__|_| |_|_| |_\__, | / / / /
+ =========|_|==============|___/=/_/_/_/
+ :: Spring Boot ::                (v2.7.4)
+
+2022-09-29 16:48:43.247  INFO 9020 --- [           main] c.j.c.CalculatorApplicationTests         : Starting CalculatorApplicationTests using Java 11.0.9 on psantades057 with PID 9020 (started by jmacedo in C:\Users\jmacedo\Documents\Personal\Back\calculator)
+2022-09-29 16:48:43.248  INFO 9020 --- [           main] c.j.c.CalculatorApplicationTests         : No active profile set, falling back to 1 default profile: "default"
+2022-09-29 16:48:46.431  WARN 9020 --- [           main] o.s.w.c.s.GenericWebApplicationContext   : Exception encountered during context initialization - cancelling refresh attempt: org.springframework.context.ApplicationContextException: Failed to start bean 'documentationPluginsBootstrapper'; nested exception is java.lang.NullPointerException
+2022-09-29 16:48:46.447  INFO 9020 --- [           main] ConditionEvaluationReportLoggingListener : 
+
+Error starting ApplicationContext. To display the conditions report re-run your application with 'debug' enabled.
+2022-09-29 16:48:46.492 ERROR 9020 --- [           main] o.s.boot.SpringApplication               : Application run failed
+
+org.springframework.context.ApplicationContextException: Failed to start bean 'documentationPluginsBootstrapper'; nested exception is java.lang.NullPointerException
+	at org.springframework.context.support.DefaultLifecycleProcessor.doStart(DefaultLifecycleProcessor.java:181) ~[spring-context-5.3.23.jar:5.3.23]
+	at org.springframework.context.support.DefaultLifecycleProcessor.access$200(DefaultLifecycleProcessor.java:54) ~[spring-context-5.3.23.jar:5.3.23]
+	at org.springframework.context.support.DefaultLifecycleProcessor$LifecycleGroup.start(DefaultLifecycleProcessor.java:356) ~[spring-context-5.3.23.jar:5.3.23]
+	at org.springframework.context.support.DefaultLifecycleProcessor$$Lambda$859/000000000000000000.accept(Unknown Source) ~[na:na]
+	at java.base/java.lang.Iterable.forEach(Iterable.java:75) ~[na:na]
+	at org.springframework.context.support.DefaultLifecycleProcessor.startBeans(DefaultLifecycleProcessor.java:155) ~[spring-context-5.3.23.jar:5.3.23]
+	at org.springframework.context.support.DefaultLifecycleProcessor.onRefresh(DefaultLifecycleProcessor.java:123) ~[spring-context-5.3.23.jar:5.3.23]
+	at org.springframework.context.support.AbstractApplicationContext.finishRefresh(AbstractApplicationContext.java:935) ~[spring-context-5.3.23.jar:5.3.23]
+	at org.springframework.context.support.AbstractApplicationContext.refresh(AbstractApplicationContext.java:586) ~[spring-context-5.3.23.jar:5.3.23]
+	at org.springframework.boot.SpringApplication.refresh(SpringApplication.java:734) ~[spring-boot-2.7.4.jar:2.7.4]
+	at org.springframework.boot.SpringApplication.refreshContext(SpringApplication.java:408) ~[spring-boot-2.7.4.jar:2.7.4]
+	at org.springframework.boot.SpringApplication.run(SpringApplication.java:308) ~[spring-boot-2.7.4.jar:2.7.4]
+	at org.springframework.boot.test.context.SpringBootContextLoader.loadContext(SpringBootContextLoader.java:132) ~[spring-boot-test-2.7.4.jar:2.7.4]
+	at org.springframework.test.context.cache.DefaultCacheAwareContextLoaderDelegate.loadContextInternal(DefaultCacheAwareContextLoaderDelegate.java:141) ~[spring-test-5.3.23.jar:5.3.23]
+	at org.springframework.test.context.cache.DefaultCacheAwareContextLoaderDelegate.loadContext(DefaultCacheAwareContextLoaderDelegate.java:90) ~[spring-test-5.3.23.jar:5.3.23]
+	at org.springframework.test.context.support.DefaultTestContext.getApplicationContext(DefaultTestContext.java:124) ~[spring-test-5.3.23.jar:5.3.23]
+	at org.springframework.test.context.web.ServletTestExecutionListener.setUpRequestContextIfNecessary(ServletTestExecutionListener.java:190) ~[spring-test-5.3.23.jar:5.3.23]
+	at org.springframework.test.context.web.ServletTestExecutionListener.prepareTestInstance(ServletTestExecutionListener.java:132) ~[spring-test-5.3.23.jar:5.3.23]
+	at org.springframework.test.context.TestContextManager.prepareTestInstance(TestContextManager.java:248) ~[spring-test-5.3.23.jar:5.3.23]
+	at org.springframework.test.context.junit.jupiter.SpringExtension.postProcessTestInstance(SpringExtension.java:138) ~[spring-test-5.3.23.jar:5.3.23]
+	at org.junit.jupiter.engine.descriptor.ClassBasedTestDescriptor.lambda$invokeTestInstancePostProcessors$8(ClassBasedTestDescriptor.java:363) ~[junit-jupiter-engine-5.8.2.jar:5.8.2]
+	at org.junit.jupiter.engine.descriptor.ClassBasedTestDescriptor$$Lambda$394/000000000000000000.execute(Unknown Source) ~[na:na]
+	at org.junit.jupiter.engine.descriptor.ClassBasedTestDescriptor.executeAndMaskThrowable(ClassBasedTestDescriptor.java:368) ~[junit-jupiter-engine-5.8.2.jar:5.8.2]
+	at org.junit.jupiter.engine.descriptor.ClassBasedTestDescriptor.lambda$invokeTestInstancePostProcessors$9(ClassBasedTestDescriptor.java:363) ~[junit-jupiter-engine-5.8.2.jar:5.8.2]
+	at org.junit.jupiter.engine.descriptor.ClassBasedTestDescriptor$$Lambda$393/000000000000000000.accept(Unknown Source) ~[na:na]
+	at java.base/java.util.stream.StreamSpliterators$WrappingSpliterator$$Lambda$153/000000000000000000.accept(Unknown Source) ~[na:na]
+	at java.base/java.util.stream.ReferencePipeline$3$1.accept(ReferencePipeline.java:195) ~[na:na]
+	at java.base/java.util.stream.ReferencePipeline$2$1.accept(ReferencePipeline.java:177) ~[na:na]
+	at java.base/java.util.ArrayList$ArrayListSpliterator.forEachRemaining(ArrayList.java:1655) ~[na:na]
+	at java.base/java.util.stream.AbstractPipeline.copyInto(AbstractPipeline.java:497) ~[na:na]
+	at java.base/java.util.stream.AbstractPipeline.wrapAndCopyInto(AbstractPipeline.java:487) ~[na:na]
+	at java.base/java.util.stream.StreamSpliterators$WrappingSpliterator.forEachRemaining(StreamSpliterators.java:312) ~[na:na]
+	at java.base/java.util.stream.Streams$ConcatSpliterator.forEachRemaining(Streams.java:740) ~[na:na]
+	at java.base/java.util.stream.Streams$ConcatSpliterator.forEachRemaining(Streams.java:739) ~[na:na]
+	at java.base/java.util.stream.ReferencePipeline$Head.forEach(ReferencePipeline.java:658) ~[na:na]
+	at org.junit.jupiter.engine.descriptor.ClassBasedTestDescriptor.invokeTestInstancePostProcessors(ClassBasedTestDescriptor.java:362) ~[junit-jupiter-engine-5.8.2.jar:5.8.2]
+	at org.junit.jupiter.engine.descriptor.ClassBasedTestDescriptor.lambda$instantiateAndPostProcessTestInstance$6(ClassBasedTestDescriptor.java:283) ~[junit-jupiter-engine-5.8.2.jar:5.8.2]
+	at org.junit.jupiter.engine.descriptor.ClassBasedTestDescriptor$$Lambda$392/000000000000000000.execute(Unknown Source) ~[na:na]
+	at org.junit.platform.engine.support.hierarchical.ThrowableCollector.execute(ThrowableCollector.java:73) ~[junit-platform-engine-1.8.2.jar:1.8.2]
+	at org.junit.jupiter.engine.descriptor.ClassBasedTestDescriptor.instantiateAndPostProcessTestInstance(ClassBasedTestDescriptor.java:282) ~[junit-jupiter-engine-5.8.2.jar:5.8.2]
+	at org.junit.jupiter.engine.descriptor.ClassBasedTestDescriptor.lambda$testInstancesProvider$4(ClassBasedTestDescriptor.java:272) ~[junit-jupiter-engine-5.8.2.jar:5.8.2]
+	at org.junit.jupiter.engine.descriptor.ClassBasedTestDescriptor$$Lambda$387/000000000000000000.get(Unknown Source) ~[na:na]
+	at java.base/java.util.Optional.orElseGet(Optional.java:369) ~[na:na]
+	at org.junit.jupiter.engine.descriptor.ClassBasedTestDescriptor.lambda$testInstancesProvider$5(ClassBasedTestDescriptor.java:271) ~[junit-jupiter-engine-5.8.2.jar:5.8.2]
+	at org.junit.jupiter.engine.descriptor.ClassBasedTestDescriptor$$Lambda$286/000000000000000000.getTestInstances(Unknown Source) ~[na:na]
+	at org.junit.jupiter.engine.execution.TestInstancesProvider.getTestInstances(TestInstancesProvider.java:31) ~[junit-jupiter-engine-5.8.2.jar:5.8.2]
+	at org.junit.jupiter.engine.descriptor.TestMethodTestDescriptor.lambda$prepare$0(TestMethodTestDescriptor.java:102) ~[junit-jupiter-engine-5.8.2.jar:5.8.2]
+	at org.junit.jupiter.engine.descriptor.TestMethodTestDescriptor$$Lambda$386/000000000000000000.execute(Unknown Source) ~[na:na]
+	at org.junit.platform.engine.support.hierarchical.ThrowableCollector.execute(ThrowableCollector.java:73) ~[junit-platform-engine-1.8.2.jar:1.8.2]
+	at org.junit.jupiter.engine.descriptor.TestMethodTestDescriptor.prepare(TestMethodTestDescriptor.java:101) ~[junit-jupiter-engine-5.8.2.jar:5.8.2]
+	at org.junit.jupiter.engine.descriptor.TestMethodTestDescriptor.prepare(TestMethodTestDescriptor.java:66) ~[junit-jupiter-engine-5.8.2.jar:5.8.2]
+	at org.junit.platform.engine.support.hierarchical.NodeTestTask.lambda$prepare$2(NodeTestTask.java:123) ~[junit-platform-engine-1.8.2.jar:1.8.2]
+	at org.junit.platform.engine.support.hierarchical.NodeTestTask$$Lambda$230/000000000000000000.execute(Unknown Source) ~[na:na]
+	at org.junit.platform.engine.support.hierarchical.ThrowableCollector.execute(ThrowableCollector.java:73) ~[junit-platform-engine-1.8.2.jar:1.8.2]
+	at org.junit.platform.engine.support.hierarchical.NodeTestTask.prepare(NodeTestTask.java:123) ~[junit-platform-engine-1.8.2.jar:1.8.2]
+	at org.junit.platform.engine.support.hierarchical.NodeTestTask.execute(NodeTestTask.java:90) ~[junit-platform-engine-1.8.2.jar:1.8.2]
+	at org.junit.platform.engine.support.hierarchical.SameThreadHierarchicalTestExecutorService$$Lambda$235/000000000000000000.accept(Unknown Source) ~[na:na]
+	at java.base/java.util.ArrayList.forEach(ArrayList.java:1541) ~[na:na]
+	at org.junit.platform.engine.support.hierarchical.SameThreadHierarchicalTestExecutorService.invokeAll(SameThreadHierarchicalTestExecutorService.java:41) ~[junit-platform-engine-1.8.2.jar:1.8.2]
+	at org.junit.platform.engine.support.hierarchical.NodeTestTask.lambda$executeRecursively$6(NodeTestTask.java:155) ~[junit-platform-engine-1.8.2.jar:1.8.2]
+	at org.junit.platform.engine.support.hierarchical.NodeTestTask$$Lambda$1040/000000000000000000.execute(Unknown Source) ~[na:na]
+	at org.junit.platform.engine.support.hierarchical.ThrowableCollector.execute(ThrowableCollector.java:73) ~[junit-platform-engine-1.8.2.jar:1.8.2]
+	at org.junit.platform.engine.support.hierarchical.NodeTestTask.lambda$executeRecursively$8(NodeTestTask.java:141) ~[junit-platform-engine-1.8.2.jar:1.8.2]
+	at org.junit.platform.engine.support.hierarchical.NodeTestTask$$Lambda$244/000000000000000000.invoke(Unknown Source) ~[na:na]
+	at org.junit.platform.engine.support.hierarchical.Node.around(Node.java:137) ~[junit-platform-engine-1.8.2.jar:1.8.2]
+	at org.junit.platform.engine.support.hierarchical.NodeTestTask.lambda$executeRecursively$9(NodeTestTask.java:139) ~[junit-platform-engine-1.8.2.jar:1.8.2]
+	at org.junit.platform.engine.support.hierarchical.NodeTestTask$$Lambda$243/000000000000000000.execute(Unknown Source) ~[na:na]
+	at org.junit.platform.engine.support.hierarchical.ThrowableCollector.execute(ThrowableCollector.java:73) ~[junit-platform-engine-1.8.2.jar:1.8.2]
+	at org.junit.platform.engine.support.hierarchical.NodeTestTask.executeRecursively(NodeTestTask.java:138) ~[junit-platform-engine-1.8.2.jar:1.8.2]
+	at org.junit.platform.engine.support.hierarchical.NodeTestTask.execute(NodeTestTask.java:95) ~[junit-platform-engine-1.8.2.jar:1.8.2]
+	at org.junit.platform.engine.support.hierarchical.SameThreadHierarchicalTestExecutorService$$Lambda$235/000000000000000000.accept(Unknown Source) ~[na:na]
+	at java.base/java.util.ArrayList.forEach(ArrayList.java:1541) ~[na:na]
+	at org.junit.platform.engine.support.hierarchical.SameThreadHierarchicalTestExecutorService.invokeAll(SameThreadHierarchicalTestExecutorService.java:41) ~[junit-platform-engine-1.8.2.jar:1.8.2]
+	at org.junit.platform.engine.support.hierarchical.NodeTestTask.lambda$executeRecursively$6(NodeTestTask.java:155) ~[junit-platform-engine-1.8.2.jar:1.8.2]
+	at org.junit.platform.engine.support.hierarchical.NodeTestTask$$Lambda$1040/000000000000000000.execute(Unknown Source) ~[na:na]
+	at org.junit.platform.engine.support.hierarchical.ThrowableCollector.execute(ThrowableCollector.java:73) ~[junit-platform-engine-1.8.2.jar:1.8.2]
+	at org.junit.platform.engine.support.hierarchical.NodeTestTask.lambda$executeRecursively$8(NodeTestTask.java:141) ~[junit-platform-engine-1.8.2.jar:1.8.2]
+	at org.junit.platform.engine.support.hierarchical.NodeTestTask$$Lambda$244/000000000000000000.invoke(Unknown Source) ~[na:na]
+	at org.junit.platform.engine.support.hierarchical.Node.around(Node.java:137) ~[junit-platform-engine-1.8.2.jar:1.8.2]
+	at org.junit.platform.engine.support.hierarchical.NodeTestTask.lambda$executeRecursively$9(NodeTestTask.java:139) ~[junit-platform-engine-1.8.2.jar:1.8.2]
+	at org.junit.platform.engine.support.hierarchical.NodeTestTask$$Lambda$243/000000000000000000.execute(Unknown Source) ~[na:na]
+	at org.junit.platform.engine.support.hierarchical.ThrowableCollector.execute(ThrowableCollector.java:73) ~[junit-platform-engine-1.8.2.jar:1.8.2]
+	at org.junit.platform.engine.support.hierarchical.NodeTestTask.executeRecursively(NodeTestTask.java:138) ~[junit-platform-engine-1.8.2.jar:1.8.2]
+	at org.junit.platform.engine.support.hierarchical.NodeTestTask.execute(NodeTestTask.java:95) ~[junit-platform-engine-1.8.2.jar:1.8.2]
+	at org.junit.platform.engine.support.hierarchical.SameThreadHierarchicalTestExecutorService.submit(SameThreadHierarchicalTestExecutorService.java:35) ~[junit-platform-engine-1.8.2.jar:1.8.2]
+	at org.junit.platform.engine.support.hierarchical.HierarchicalTestExecutor.execute(HierarchicalTestExecutor.java:57) ~[junit-platform-engine-1.8.2.jar:1.8.2]
+	at org.junit.platform.engine.support.hierarchical.HierarchicalTestEngine.execute(HierarchicalTestEngine.java:54) ~[junit-platform-engine-1.8.2.jar:1.8.2]
+	at org.junit.platform.launcher.core.DefaultLauncher.execute(DefaultLauncher.java:220) ~[junit-platform-launcher-1.3.1.jar:1.3.1]
+	at org.junit.platform.launcher.core.DefaultLauncher.lambda$execute$6(DefaultLauncher.java:188) ~[junit-platform-launcher-1.3.1.jar:1.3.1]
+	at org.junit.platform.launcher.core.DefaultLauncher$$Lambda$198/000000000000000000.accept(Unknown Source) ~[na:na]
+	at org.junit.platform.launcher.core.DefaultLauncher.withInterceptedStreams(DefaultLauncher.java:202) ~[junit-platform-launcher-1.3.1.jar:1.3.1]
+	at org.junit.platform.launcher.core.DefaultLauncher.execute(DefaultLauncher.java:181) ~[junit-platform-launcher-1.3.1.jar:1.3.1]
+	at org.junit.platform.launcher.core.DefaultLauncher.execute(DefaultLauncher.java:128) ~[junit-platform-launcher-1.3.1.jar:1.3.1]
+	at org.apache.maven.surefire.junitplatform.JUnitPlatformProvider.invokeAllTests(JUnitPlatformProvider.java:150) ~[surefire-junit-platform-2.22.2.jar:2.22.2]
+	at org.apache.maven.surefire.junitplatform.JUnitPlatformProvider.invoke(JUnitPlatformProvider.java:124) ~[surefire-junit-platform-2.22.2.jar:2.22.2]
+	at org.apache.maven.surefire.booter.ForkedBooter.invokeProviderInSameClassLoader(ForkedBooter.java:384) ~[surefire-booter-2.22.2.jar:2.22.2]
+	at org.apache.maven.surefire.booter.ForkedBooter.runSuitesInProcess(ForkedBooter.java:345) ~[surefire-booter-2.22.2.jar:2.22.2]
+	at org.apache.maven.surefire.booter.ForkedBooter.execute(ForkedBooter.java:126) ~[surefire-booter-2.22.2.jar:2.22.2]
+	at org.apache.maven.surefire.booter.ForkedBooter.main(ForkedBooter.java:418) ~[surefire-booter-2.22.2.jar:2.22.2]
+Caused by: java.lang.NullPointerException: null
+	at springfox.documentation.spring.web.WebMvcPatternsRequestConditionWrapper.getPatterns(WebMvcPatternsRequestConditionWrapper.java:56) ~[springfox-spring-webmvc-3.0.0.jar:3.0.0]
+	at springfox.documentation.RequestHandler.sortedPaths(RequestHandler.java:113) ~[springfox-core-3.0.0.jar:3.0.0]
+	at springfox.documentation.spi.service.contexts.Orderings.lambda$byPatternsCondition$3(Orderings.java:89) ~[springfox-spi-3.0.0.jar:3.0.0]
+	at springfox.documentation.spi.service.contexts.Orderings$$Lambda$912/000000000000000000.apply(Unknown Source) ~[na:na]
+	at java.base/java.util.Comparator.lambda$comparing$77a9974f$1(Comparator.java:469) ~[na:na]
+	at java.base/java.util.Comparator$$Lambda$205/000000000000000000.compare(Unknown Source) ~[na:na]
+	at java.base/java.util.TimSort.countRunAndMakeAscending(TimSort.java:355) ~[na:na]
+	at java.base/java.util.TimSort.sort(TimSort.java:220) ~[na:na]
+	at java.base/java.util.Arrays.sort(Arrays.java:1546) ~[na:na]
+	at java.base/java.util.ArrayList.sort(ArrayList.java:1750) ~[na:na]
+	at java.base/java.util.stream.SortedOps$RefSortingSink.end(SortedOps.java:392) ~[na:na]
+	at java.base/java.util.stream.Sink$ChainedReference.end(Sink.java:258) ~[na:na]
+	at java.base/java.util.stream.Sink$ChainedReference.end(Sink.java:258) ~[na:na]
+	at java.base/java.util.stream.Sink$ChainedReference.end(Sink.java:258) ~[na:na]
+	at java.base/java.util.stream.Sink$ChainedReference.end(Sink.java:258) ~[na:na]
+	at java.base/java.util.stream.AbstractPipeline.copyInto(AbstractPipeline.java:498) ~[na:na]
+	at java.base/java.util.stream.AbstractPipeline.wrapAndCopyInto(AbstractPipeline.java:487) ~[na:na]
+	at java.base/java.util.stream.ReduceOps$ReduceOp.evaluateSequential(ReduceOps.java:913) ~[na:na]
+	at java.base/java.util.stream.AbstractPipeline.evaluate(AbstractPipeline.java:239) ~[na:na]
+	at java.base/java.util.stream.ReferencePipeline.collect(ReferencePipeline.java:578) ~[na:na]
+	at springfox.documentation.spring.web.plugins.WebMvcRequestHandlerProvider.requestHandlers(WebMvcRequestHandlerProvider.java:81) ~[springfox-spring-webmvc-3.0.0.jar:3.0.0]
+	at springfox.documentation.spring.web.plugins.AbstractDocumentationPluginsBootstrapper$$Lambda$906/000000000000000000.apply(Unknown Source) ~[na:na]
+	at java.base/java.util.stream.ReferencePipeline$3$1.accept(ReferencePipeline.java:195) ~[na:na]
+	at java.base/java.util.ArrayList$ArrayListSpliterator.forEachRemaining(ArrayList.java:1655) ~[na:na]
+	at java.base/java.util.stream.AbstractPipeline.copyInto(AbstractPipeline.java:497) ~[na:na]
+	at java.base/java.util.stream.AbstractPipeline.wrapAndCopyInto(AbstractPipeline.java:487) ~[na:na]
+	at java.base/java.util.stream.ReduceOps$ReduceOp.evaluateSequential(ReduceOps.java:913) ~[na:na]
+	at java.base/java.util.stream.AbstractPipeline.evaluate(AbstractPipeline.java:239) ~[na:na]
+	at java.base/java.util.stream.ReferencePipeline.collect(ReferencePipeline.java:578) ~[na:na]
+	at springfox.documentation.spring.web.plugins.AbstractDocumentationPluginsBootstrapper.withDefaults(AbstractDocumentationPluginsBootstrapper.java:107) ~[springfox-spring-web-3.0.0.jar:3.0.0]
+	at springfox.documentation.spring.web.plugins.AbstractDocumentationPluginsBootstrapper.buildContext(AbstractDocumentationPluginsBootstrapper.java:91) ~[springfox-spring-web-3.0.0.jar:3.0.0]
+	at springfox.documentation.spring.web.plugins.AbstractDocumentationPluginsBootstrapper.bootstrapDocumentationPlugins(AbstractDocumentationPluginsBootstrapper.java:82) ~[springfox-spring-web-3.0.0.jar:3.0.0]
+	at springfox.documentation.spring.web.plugins.DocumentationPluginsBootstrapper.start(DocumentationPluginsBootstrapper.java:100) ~[springfox-spring-web-3.0.0.jar:3.0.0]
+	at org.springframework.context.support.DefaultLifecycleProcessor.doStart(DefaultLifecycleProcessor.java:178) ~[spring-context-5.3.23.jar:5.3.23]
+	... 98 common frames omitted
+
+2022-09-29 16:48:46.504 ERROR 9020 --- [           main] o.s.test.context.TestContextManager      : Caught exception while allowing TestExecutionListener [org.springframework.test.context.web.ServletTestExecutionListener@d76142d6] to prepare test instance [com.jmmacedo.calculator.CalculatorApplicationTests@67a34af2]
+
+java.lang.IllegalStateException: Failed to load ApplicationContext
+	at org.springframework.test.context.cache.DefaultCacheAwareContextLoaderDelegate.loadContext(DefaultCacheAwareContextLoaderDelegate.java:98) ~[spring-test-5.3.23.jar:5.3.23]
+	at org.springframework.test.context.support.DefaultTestContext.getApplicationContext(DefaultTestContext.java:124) ~[spring-test-5.3.23.jar:5.3.23]
+	at org.springframework.test.context.web.ServletTestExecutionListener.setUpRequestContextIfNecessary(ServletTestExecutionListener.java:190) ~[spring-test-5.3.23.jar:5.3.23]
+	at org.springframework.test.context.web.ServletTestExecutionListener.prepareTestInstance(ServletTestExecutionListener.java:132) ~[spring-test-5.3.23.jar:5.3.23]
+	at org.springframework.test.context.TestContextManager.prepareTestInstance(TestContextManager.java:248) ~[spring-test-5.3.23.jar:5.3.23]
+	at org.springframework.test.context.junit.jupiter.SpringExtension.postProcessTestInstance(SpringExtension.java:138) ~[spring-test-5.3.23.jar:5.3.23]
+	at org.junit.jupiter.engine.descriptor.ClassBasedTestDescriptor.lambda$invokeTestInstancePostProcessors$8(ClassBasedTestDescriptor.java:363) ~[junit-jupiter-engine-5.8.2.jar:5.8.2]
+	at org.junit.jupiter.engine.descriptor.ClassBasedTestDescriptor$$Lambda$394/000000000000000000.execute(Unknown Source) ~[na:na]
+	at org.junit.jupiter.engine.descriptor.ClassBasedTestDescriptor.executeAndMaskThrowable(ClassBasedTestDescriptor.java:368) ~[junit-jupiter-engine-5.8.2.jar:5.8.2]
+	at org.junit.jupiter.engine.descriptor.ClassBasedTestDescriptor.lambda$invokeTestInstancePostProcessors$9(ClassBasedTestDescriptor.java:363) ~[junit-jupiter-engine-5.8.2.jar:5.8.2]
+	at org.junit.jupiter.engine.descriptor.ClassBasedTestDescriptor$$Lambda$393/000000000000000000.accept(Unknown Source) ~[na:na]
+	at java.base/java.util.stream.StreamSpliterators$WrappingSpliterator$$Lambda$153/000000000000000000.accept(Unknown Source) ~[na:na]
+	at java.base/java.util.stream.ReferencePipeline$3$1.accept(ReferencePipeline.java:195) ~[na:na]
+	at java.base/java.util.stream.ReferencePipeline$2$1.accept(ReferencePipeline.java:177) ~[na:na]
+	at java.base/java.util.ArrayList$ArrayListSpliterator.forEachRemaining(ArrayList.java:1655) ~[na:na]
+	at java.base/java.util.stream.AbstractPipeline.copyInto(AbstractPipeline.java:497) ~[na:na]
+	at java.base/java.util.stream.AbstractPipeline.wrapAndCopyInto(AbstractPipeline.java:487) ~[na:na]
+	at java.base/java.util.stream.StreamSpliterators$WrappingSpliterator.forEachRemaining(StreamSpliterators.java:312) ~[na:na]
+	at java.base/java.util.stream.Streams$ConcatSpliterator.forEachRemaining(Streams.java:740) ~[na:na]
+	at java.base/java.util.stream.Streams$ConcatSpliterator.forEachRemaining(Streams.java:739) ~[na:na]
+	at java.base/java.util.stream.ReferencePipeline$Head.forEach(ReferencePipeline.java:658) ~[na:na]
+	at org.junit.jupiter.engine.descriptor.ClassBasedTestDescriptor.invokeTestInstancePostProcessors(ClassBasedTestDescriptor.java:362) ~[junit-jupiter-engine-5.8.2.jar:5.8.2]
+	at org.junit.jupiter.engine.descriptor.ClassBasedTestDescriptor.lambda$instantiateAndPostProcessTestInstance$6(ClassBasedTestDescriptor.java:283) ~[junit-jupiter-engine-5.8.2.jar:5.8.2]
+	at org.junit.jupiter.engine.descriptor.ClassBasedTestDescriptor$$Lambda$392/000000000000000000.execute(Unknown Source) ~[na:na]
+	at org.junit.platform.engine.support.hierarchical.ThrowableCollector.execute(ThrowableCollector.java:73) ~[junit-platform-engine-1.8.2.jar:1.8.2]
+	at org.junit.jupiter.engine.descriptor.ClassBasedTestDescriptor.instantiateAndPostProcessTestInstance(ClassBasedTestDescriptor.java:282) ~[junit-jupiter-engine-5.8.2.jar:5.8.2]
+	at org.junit.jupiter.engine.descriptor.ClassBasedTestDescriptor.lambda$testInstancesProvider$4(ClassBasedTestDescriptor.java:272) ~[junit-jupiter-engine-5.8.2.jar:5.8.2]
+	at org.junit.jupiter.engine.descriptor.ClassBasedTestDescriptor$$Lambda$387/000000000000000000.get(Unknown Source) ~[na:na]
+	at java.base/java.util.Optional.orElseGet(Optional.java:369) ~[na:na]
+	at org.junit.jupiter.engine.descriptor.ClassBasedTestDescriptor.lambda$testInstancesProvider$5(ClassBasedTestDescriptor.java:271) ~[junit-jupiter-engine-5.8.2.jar:5.8.2]
+	at org.junit.jupiter.engine.descriptor.ClassBasedTestDescriptor$$Lambda$286/000000000000000000.getTestInstances(Unknown Source) ~[na:na]
+	at org.junit.jupiter.engine.execution.TestInstancesProvider.getTestInstances(TestInstancesProvider.java:31) ~[junit-jupiter-engine-5.8.2.jar:5.8.2]
+	at org.junit.jupiter.engine.descriptor.TestMethodTestDescriptor.lambda$prepare$0(TestMethodTestDescriptor.java:102) ~[junit-jupiter-engine-5.8.2.jar:5.8.2]
+	at org.junit.jupiter.engine.descriptor.TestMethodTestDescriptor$$Lambda$386/000000000000000000.execute(Unknown Source) ~[na:na]
+	at org.junit.platform.engine.support.hierarchical.ThrowableCollector.execute(ThrowableCollector.java:73) ~[junit-platform-engine-1.8.2.jar:1.8.2]
+	at org.junit.jupiter.engine.descriptor.TestMethodTestDescriptor.prepare(TestMethodTestDescriptor.java:101) ~[junit-jupiter-engine-5.8.2.jar:5.8.2]
+	at org.junit.jupiter.engine.descriptor.TestMethodTestDescriptor.prepare(TestMethodTestDescriptor.java:66) ~[junit-jupiter-engine-5.8.2.jar:5.8.2]
+	at org.junit.platform.engine.support.hierarchical.NodeTestTask.lambda$prepare$2(NodeTestTask.java:123) ~[junit-platform-engine-1.8.2.jar:1.8.2]
+	at org.junit.platform.engine.support.hierarchical.NodeTestTask$$Lambda$230/000000000000000000.execute(Unknown Source) ~[na:na]
+	at org.junit.platform.engine.support.hierarchical.ThrowableCollector.execute(ThrowableCollector.java:73) ~[junit-platform-engine-1.8.2.jar:1.8.2]
+	at org.junit.platform.engine.support.hierarchical.NodeTestTask.prepare(NodeTestTask.java:123) ~[junit-platform-engine-1.8.2.jar:1.8.2]
+	at org.junit.platform.engine.support.hierarchical.NodeTestTask.execute(NodeTestTask.java:90) ~[junit-platform-engine-1.8.2.jar:1.8.2]
+	at org.junit.platform.engine.support.hierarchical.SameThreadHierarchicalTestExecutorService$$Lambda$235/000000000000000000.accept(Unknown Source) ~[na:na]
+	at java.base/java.util.ArrayList.forEach(ArrayList.java:1541) ~[na:na]
+	at org.junit.platform.engine.support.hierarchical.SameThreadHierarchicalTestExecutorService.invokeAll(SameThreadHierarchicalTestExecutorService.java:41) ~[junit-platform-engine-1.8.2.jar:1.8.2]
+	at org.junit.platform.engine.support.hierarchical.NodeTestTask.lambda$executeRecursively$6(NodeTestTask.java:155) ~[junit-platform-engine-1.8.2.jar:1.8.2]
+	at org.junit.platform.engine.support.hierarchical.NodeTestTask$$Lambda$1040/000000000000000000.execute(Unknown Source) ~[na:na]
+	at org.junit.platform.engine.support.hierarchical.ThrowableCollector.execute(ThrowableCollector.java:73) ~[junit-platform-engine-1.8.2.jar:1.8.2]
+	at org.junit.platform.engine.support.hierarchical.NodeTestTask.lambda$executeRecursively$8(NodeTestTask.java:141) ~[junit-platform-engine-1.8.2.jar:1.8.2]
+	at org.junit.platform.engine.support.hierarchical.NodeTestTask$$Lambda$244/000000000000000000.invoke(Unknown Source) ~[na:na]
+	at org.junit.platform.engine.support.hierarchical.Node.around(Node.java:137) ~[junit-platform-engine-1.8.2.jar:1.8.2]
+	at org.junit.platform.engine.support.hierarchical.NodeTestTask.lambda$executeRecursively$9(NodeTestTask.java:139) ~[junit-platform-engine-1.8.2.jar:1.8.2]
+	at org.junit.platform.engine.support.hierarchical.NodeTestTask$$Lambda$243/000000000000000000.execute(Unknown Source) ~[na:na]
+	at org.junit.platform.engine.support.hierarchical.ThrowableCollector.execute(ThrowableCollector.java:73) ~[junit-platform-engine-1.8.2.jar:1.8.2]
+	at org.junit.platform.engine.support.hierarchical.NodeTestTask.executeRecursively(NodeTestTask.java:138) ~[junit-platform-engine-1.8.2.jar:1.8.2]
+	at org.junit.platform.engine.support.hierarchical.NodeTestTask.execute(NodeTestTask.java:95) ~[junit-platform-engine-1.8.2.jar:1.8.2]
+	at org.junit.platform.engine.support.hierarchical.SameThreadHierarchicalTestExecutorService$$Lambda$235/000000000000000000.accept(Unknown Source) ~[na:na]
+	at java.base/java.util.ArrayList.forEach(ArrayList.java:1541) ~[na:na]
+	at org.junit.platform.engine.support.hierarchical.SameThreadHierarchicalTestExecutorService.invokeAll(SameThreadHierarchicalTestExecutorService.java:41) ~[junit-platform-engine-1.8.2.jar:1.8.2]
+	at org.junit.platform.engine.support.hierarchical.NodeTestTask.lambda$executeRecursively$6(NodeTestTask.java:155) ~[junit-platform-engine-1.8.2.jar:1.8.2]
+	at org.junit.platform.engine.support.hierarchical.NodeTestTask$$Lambda$1040/000000000000000000.execute(Unknown Source) ~[na:na]
+	at org.junit.platform.engine.support.hierarchical.ThrowableCollector.execute(ThrowableCollector.java:73) ~[junit-platform-engine-1.8.2.jar:1.8.2]
+	at org.junit.platform.engine.support.hierarchical.NodeTestTask.lambda$executeRecursively$8(NodeTestTask.java:141) ~[junit-platform-engine-1.8.2.jar:1.8.2]
+	at org.junit.platform.engine.support.hierarchical.NodeTestTask$$Lambda$244/000000000000000000.invoke(Unknown Source) ~[na:na]
+	at org.junit.platform.engine.support.hierarchical.Node.around(Node.java:137) ~[junit-platform-engine-1.8.2.jar:1.8.2]
+	at org.junit.platform.engine.support.hierarchical.NodeTestTask.lambda$executeRecursively$9(NodeTestTask.java:139) ~[junit-platform-engine-1.8.2.jar:1.8.2]
+	at org.junit.platform.engine.support.hierarchical.NodeTestTask$$Lambda$243/000000000000000000.execute(Unknown Source) ~[na:na]
+	at org.junit.platform.engine.support.hierarchical.ThrowableCollector.execute(ThrowableCollector.java:73) ~[junit-platform-engine-1.8.2.jar:1.8.2]
+	at org.junit.platform.engine.support.hierarchical.NodeTestTask.executeRecursively(NodeTestTask.java:138) ~[junit-platform-engine-1.8.2.jar:1.8.2]
+	at org.junit.platform.engine.support.hierarchical.NodeTestTask.execute(NodeTestTask.java:95) ~[junit-platform-engine-1.8.2.jar:1.8.2]
+	at org.junit.platform.engine.support.hierarchical.SameThreadHierarchicalTestExecutorService.submit(SameThreadHierarchicalTestExecutorService.java:35) ~[junit-platform-engine-1.8.2.jar:1.8.2]
+	at org.junit.platform.engine.support.hierarchical.HierarchicalTestExecutor.execute(HierarchicalTestExecutor.java:57) ~[junit-platform-engine-1.8.2.jar:1.8.2]
+	at org.junit.platform.engine.support.hierarchical.HierarchicalTestEngine.execute(HierarchicalTestEngine.java:54) ~[junit-platform-engine-1.8.2.jar:1.8.2]
+	at org.junit.platform.launcher.core.DefaultLauncher.execute(DefaultLauncher.java:220) ~[junit-platform-launcher-1.3.1.jar:1.3.1]
+	at org.junit.platform.launcher.core.DefaultLauncher.lambda$execute$6(DefaultLauncher.java:188) ~[junit-platform-launcher-1.3.1.jar:1.3.1]
+	at org.junit.platform.launcher.core.DefaultLauncher$$Lambda$198/000000000000000000.accept(Unknown Source) ~[na:na]
+	at org.junit.platform.launcher.core.DefaultLauncher.withInterceptedStreams(DefaultLauncher.java:202) ~[junit-platform-launcher-1.3.1.jar:1.3.1]
+	at org.junit.platform.launcher.core.DefaultLauncher.execute(DefaultLauncher.java:181) ~[junit-platform-launcher-1.3.1.jar:1.3.1]
+	at org.junit.platform.launcher.core.DefaultLauncher.execute(DefaultLauncher.java:128) ~[junit-platform-launcher-1.3.1.jar:1.3.1]
+	at org.apache.maven.surefire.junitplatform.JUnitPlatformProvider.invokeAllTests(JUnitPlatformProvider.java:150) ~[surefire-junit-platform-2.22.2.jar:2.22.2]
+	at org.apache.maven.surefire.junitplatform.JUnitPlatformProvider.invoke(JUnitPlatformProvider.java:124) ~[surefire-junit-platform-2.22.2.jar:2.22.2]
+	at org.apache.maven.surefire.booter.ForkedBooter.invokeProviderInSameClassLoader(ForkedBooter.java:384) ~[surefire-booter-2.22.2.jar:2.22.2]
+	at org.apache.maven.surefire.booter.ForkedBooter.runSuitesInProcess(ForkedBooter.java:345) ~[surefire-booter-2.22.2.jar:2.22.2]
+	at org.apache.maven.surefire.booter.ForkedBooter.execute(ForkedBooter.java:126) ~[surefire-booter-2.22.2.jar:2.22.2]
+	at org.apache.maven.surefire.booter.ForkedBooter.main(ForkedBooter.java:418) ~[surefire-booter-2.22.2.jar:2.22.2]
+Caused by: org.springframework.context.ApplicationContextException: Failed to start bean 'documentationPluginsBootstrapper'; nested exception is java.lang.NullPointerException
+	at org.springframework.context.support.DefaultLifecycleProcessor.doStart(DefaultLifecycleProcessor.java:181) ~[spring-context-5.3.23.jar:5.3.23]
+	at org.springframework.context.support.DefaultLifecycleProcessor.access$200(DefaultLifecycleProcessor.java:54) ~[spring-context-5.3.23.jar:5.3.23]
+	at org.springframework.context.support.DefaultLifecycleProcessor$LifecycleGroup.start(DefaultLifecycleProcessor.java:356) ~[spring-context-5.3.23.jar:5.3.23]
+	at org.springframework.context.support.DefaultLifecycleProcessor$$Lambda$859/000000000000000000.accept(Unknown Source) ~[na:na]
+	at java.base/java.lang.Iterable.forEach(Iterable.java:75) ~[na:na]
+	at org.springframework.context.support.DefaultLifecycleProcessor.startBeans(DefaultLifecycleProcessor.java:155) ~[spring-context-5.3.23.jar:5.3.23]
+	at org.springframework.context.support.DefaultLifecycleProcessor.onRefresh(DefaultLifecycleProcessor.java:123) ~[spring-context-5.3.23.jar:5.3.23]
+	at org.springframework.context.support.AbstractApplicationContext.finishRefresh(AbstractApplicationContext.java:935) ~[spring-context-5.3.23.jar:5.3.23]
+	at org.springframework.context.support.AbstractApplicationContext.refresh(AbstractApplicationContext.java:586) ~[spring-context-5.3.23.jar:5.3.23]
+	at org.springframework.boot.SpringApplication.refresh(SpringApplication.java:734) ~[spring-boot-2.7.4.jar:2.7.4]
+	at org.springframework.boot.SpringApplication.refreshContext(SpringApplication.java:408) ~[spring-boot-2.7.4.jar:2.7.4]
+	at org.springframework.boot.SpringApplication.run(SpringApplication.java:308) ~[spring-boot-2.7.4.jar:2.7.4]
+	at org.springframework.boot.test.context.SpringBootContextLoader.loadContext(SpringBootContextLoader.java:132) ~[spring-boot-test-2.7.4.jar:2.7.4]
+	at org.springframework.test.context.cache.DefaultCacheAwareContextLoaderDelegate.loadContextInternal(DefaultCacheAwareContextLoaderDelegate.java:141) ~[spring-test-5.3.23.jar:5.3.23]
+	at org.springframework.test.context.cache.DefaultCacheAwareContextLoaderDelegate.loadContext(DefaultCacheAwareContextLoaderDelegate.java:90) ~[spring-test-5.3.23.jar:5.3.23]
+	... 84 common frames omitted
+Caused by: java.lang.NullPointerException: null
+	at springfox.documentation.spring.web.WebMvcPatternsRequestConditionWrapper.getPatterns(WebMvcPatternsRequestConditionWrapper.java:56) ~[springfox-spring-webmvc-3.0.0.jar:3.0.0]
+	at springfox.documentation.RequestHandler.sortedPaths(RequestHandler.java:113) ~[springfox-core-3.0.0.jar:3.0.0]
+	at springfox.documentation.spi.service.contexts.Orderings.lambda$byPatternsCondition$3(Orderings.java:89) ~[springfox-spi-3.0.0.jar:3.0.0]
+	at springfox.documentation.spi.service.contexts.Orderings$$Lambda$912/000000000000000000.apply(Unknown Source) ~[na:na]
+	at java.base/java.util.Comparator.lambda$comparing$77a9974f$1(Comparator.java:469) ~[na:na]
+	at java.base/java.util.Comparator$$Lambda$205/000000000000000000.compare(Unknown Source) ~[na:na]
+	at java.base/java.util.TimSort.countRunAndMakeAscending(TimSort.java:355) ~[na:na]
+	at java.base/java.util.TimSort.sort(TimSort.java:220) ~[na:na]
+	at java.base/java.util.Arrays.sort(Arrays.java:1546) ~[na:na]
+	at java.base/java.util.ArrayList.sort(ArrayList.java:1750) ~[na:na]
+	at java.base/java.util.stream.SortedOps$RefSortingSink.end(SortedOps.java:392) ~[na:na]
+	at java.base/java.util.stream.Sink$ChainedReference.end(Sink.java:258) ~[na:na]
+	at java.base/java.util.stream.Sink$ChainedReference.end(Sink.java:258) ~[na:na]
+	at java.base/java.util.stream.Sink$ChainedReference.end(Sink.java:258) ~[na:na]
+	at java.base/java.util.stream.Sink$ChainedReference.end(Sink.java:258) ~[na:na]
+	at java.base/java.util.stream.AbstractPipeline.copyInto(AbstractPipeline.java:498) ~[na:na]
+	at java.base/java.util.stream.AbstractPipeline.wrapAndCopyInto(AbstractPipeline.java:487) ~[na:na]
+	at java.base/java.util.stream.ReduceOps$ReduceOp.evaluateSequential(ReduceOps.java:913) ~[na:na]
+	at java.base/java.util.stream.AbstractPipeline.evaluate(AbstractPipeline.java:239) ~[na:na]
+	at java.base/java.util.stream.ReferencePipeline.collect(ReferencePipeline.java:578) ~[na:na]
+	at springfox.documentation.spring.web.plugins.WebMvcRequestHandlerProvider.requestHandlers(WebMvcRequestHandlerProvider.java:81) ~[springfox-spring-webmvc-3.0.0.jar:3.0.0]
+	at springfox.documentation.spring.web.plugins.AbstractDocumentationPluginsBootstrapper$$Lambda$906/000000000000000000.apply(Unknown Source) ~[na:na]
+	at java.base/java.util.stream.ReferencePipeline$3$1.accept(ReferencePipeline.java:195) ~[na:na]
+	at java.base/java.util.ArrayList$ArrayListSpliterator.forEachRemaining(ArrayList.java:1655) ~[na:na]
+	at java.base/java.util.stream.AbstractPipeline.copyInto(AbstractPipeline.java:497) ~[na:na]
+	at java.base/java.util.stream.AbstractPipeline.wrapAndCopyInto(AbstractPipeline.java:487) ~[na:na]
+	at java.base/java.util.stream.ReduceOps$ReduceOp.evaluateSequential(ReduceOps.java:913) ~[na:na]
+	at java.base/java.util.stream.AbstractPipeline.evaluate(AbstractPipeline.java:239) ~[na:na]
+	at java.base/java.util.stream.ReferencePipeline.collect(ReferencePipeline.java:578) ~[na:na]
+	at springfox.documentation.spring.web.plugins.AbstractDocumentationPluginsBootstrapper.withDefaults(AbstractDocumentationPluginsBootstrapper.java:107) ~[springfox-spring-web-3.0.0.jar:3.0.0]
+	at springfox.documentation.spring.web.plugins.AbstractDocumentationPluginsBootstrapper.buildContext(AbstractDocumentationPluginsBootstrapper.java:91) ~[springfox-spring-web-3.0.0.jar:3.0.0]
+	at springfox.documentation.spring.web.plugins.AbstractDocumentationPluginsBootstrapper.bootstrapDocumentationPlugins(AbstractDocumentationPluginsBootstrapper.java:82) ~[springfox-spring-web-3.0.0.jar:3.0.0]
+	at springfox.documentation.spring.web.plugins.DocumentationPluginsBootstrapper.start(DocumentationPluginsBootstrapper.java:100) ~[springfox-spring-web-3.0.0.jar:3.0.0]
+	at org.springframework.context.support.DefaultLifecycleProcessor.doStart(DefaultLifecycleProcessor.java:178) ~[spring-context-5.3.23.jar:5.3.23]
+	... 98 common frames omitted
+
+]]></system-out>
+  </testcase>
+</testsuite>

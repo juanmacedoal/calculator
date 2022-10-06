@@ -1,0 +1,7 @@
+com\jmmacedo\calculator\application\rest\CalculatorController.class
+com\jmmacedo\calculator\CalculatorApplication.class
+com\jmmacedo\calculator\domain\services\impl\CalculatorServiceImpl.class
+com\jmmacedo\calculator\domain\model\Calculator.class
+com\jmmacedo\calculator\domain\services\CalculatorService.class
+com\jmmacedo\calculator\application\rest\impl\CalculatorControllerImpl.class
+com\jmmacedo\calculator\infrastructure\configuration\SwaggerConfiguration.class
