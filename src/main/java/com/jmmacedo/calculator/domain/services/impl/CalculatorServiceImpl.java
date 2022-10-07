@@ -1,6 +1,8 @@
 package com.jmmacedo.calculator.domain.services.impl;
 
+import com.jmmacedo.calculator.domain.exceptions.GreaterThanZeroException;
 import com.jmmacedo.calculator.domain.services.CalculatorService;
+import io.swagger.models.auth.In;
 import java.util.List;
 import lombok.extern.slf4j.Slf4j;
 import org.springframework.stereotype.Service;
@@ -16,43 +18,44 @@ public class CalculatorServiceImpl implements CalculatorService {
    * Operate method.
    *
    * @param operation Type of operation
-   * @param numbers Numbers to operate
+   * @param number Numbers to operate
    * @return Result
    */
   @Override
-  public int operate(String operation, List<Integer> numbers) {
+  public int operate(String operation, Integer baseNumber, Integer number) {
     switch (operation) {
       case "+":
         log.info(OPERATION_SELECTED_LITERAL, operation);
-        return sum(numbers);
+        return sum(baseNumber, number);
       case "-":
         log.info(OPERATION_SELECTED_LITERAL, operation);
-        return substract(numbers);
+        return substract(baseNumber, number);
       case "/":
         log.info(OPERATION_SELECTED_LITERAL, operation);
-        return divide(numbers);
+        return divide(baseNumber, number);
       case "*":
         log.info(OPERATION_SELECTED_LITERAL, operation);
-        return multiply(numbers);
+        return multiply(baseNumber, number);
       default:
         break;
     }
     return 0;
   }
 
-  private int sum(List<Integer> numbers) {
-    return numbers.stream().reduce(0, Integer::sum);
+  private int sum(Integer baseNumber, Integer number) {
+    return baseNumber + number;
   }
 
-  private int substract(List<Integer> numbers) {
-    return 0;
+  private int substract(Integer baseNumber, Integer number) {
+    return baseNumber - number;
   }
 
-  private int divide(List<Integer> numbers) {
-    return 0;
+  private int divide(Integer baseNumber, Integer number) throws GreaterThanZeroException {
+    if (number == 0) throw new GreaterThanZeroException();
+    return baseNumber / number;
   }
 
-  private int multiply(List<Integer> numbers) {
-    return 0;
+  private int multiply(Integer baseNumber, Integer number) {
+    return baseNumber * number;
   }
 }

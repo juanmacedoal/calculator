@@ -2,7 +2,6 @@ package com.jmmacedo.calculator.application.rest.impl;
 
 import com.jmmacedo.calculator.application.rest.CalculatorController;
 import com.jmmacedo.calculator.domain.services.CalculatorService;
-import java.util.List;
 import org.springframework.http.HttpStatus;
 import org.springframework.http.ResponseEntity;
 import org.springframework.web.bind.annotation.RequestMapping;
@@ -20,7 +19,8 @@ public class CalculatorControllerImpl implements CalculatorController {
   }
 
   @Override
-  public ResponseEntity<Integer> operate(String operation, List<Integer> numbers) {
-    return new ResponseEntity<>(this.calculatorService.operate(operation, numbers), HttpStatus.OK);
+  public ResponseEntity<Integer> operate(String operation, Integer baseNumber, Integer number) {
+    return new ResponseEntity<>(
+        this.calculatorService.operate(operation, baseNumber, number), HttpStatus.OK);
   }
 }
