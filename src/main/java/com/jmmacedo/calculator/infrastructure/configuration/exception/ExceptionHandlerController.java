@@ -9,9 +9,17 @@ import org.springframework.web.bind.annotation.ControllerAdvice;
 import org.springframework.web.bind.annotation.ExceptionHandler;
 import org.springframework.web.servlet.mvc.method.annotation.ResponseEntityExceptionHandler;
 
+/** ExceptionHandler. */
 @ControllerAdvice
 public class ExceptionHandlerController extends ResponseEntityExceptionHandler {
 
+  /**
+   * Exception handler method.
+   *
+   * @param request Request
+   * @param exception Exception
+   * @return Mapped error.
+   */
   @ExceptionHandler(GreaterThanZeroException.class)
   public ResponseEntity<ErrorWrapperDto> exceptionHandler(
       HttpServletRequest request, Exception exception) {
